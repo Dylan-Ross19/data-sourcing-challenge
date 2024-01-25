@@ -28,7 +28,7 @@ If the movie was not found it prints an error message. The output prints message
 We print the frist 5 results in JSON format index=4.
 Convert to pandas, not having to use json_normalize this time because there are no nested objects.
 
-## Pt 3: Merge and CLean the Data for Export
+## Pt 3: Merge and Clean the Data for Export
 
 We merged the teo DataFrames on the 'title' column using an inner join, combining info from both sources. We convert all unwanted characters in the "genre, spoken_languages, and prodcution_countries" columns. We converted the columns to strings and removed [] and ' from the strings.
 
